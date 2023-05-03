@@ -1,7 +1,7 @@
 # Overview
 
 This repository contains all scripts to reproduce the plots in the manuscript: 
-Synchronization of Ear-EEG and Audio Streams in a Portable Research Hearing Device
+Synchronization of ear-EEG and audio streams in a portable research hearing device
 Steffen Dasenbrock, Sarah Blum, Paul Maanen, Stefan Debener, Volker Hohmann, and Hendrik Kayser
 
 We also included the openMHA configurations used to control the Portable Hearing Laboratory in Timing Test Scenario III. 
@@ -19,7 +19,7 @@ This folder contains all Matlab scripts and functions to reproduce the plots of 
 Do the following to reproduce the plots:
 
 a. Download the xdf-Matlab module (https://github.com/xdf-modules/xdf-Matlab) and add it to your Matlab path. 
-b. Download rawdata.zip from (LINK) and unpack it.
+b. Download rawdata.zip from https://zenodo.org/record/6857372#.ZFJr7y8RrZN and unpack it.
 c. Paste the rawdata folder into the Github repository, i.e., on the same directory level as the folders 'derivatives', 'openmha_configs', and 'scripts'. 
 b. Run eval_00_main.m in the scripts folder (this may take a while)
 c. You should expect the following:
